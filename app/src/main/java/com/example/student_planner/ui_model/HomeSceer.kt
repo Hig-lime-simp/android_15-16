@@ -13,8 +13,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import com.example.studentplanner.data.Subject
-import com.example.studentplanner.data.sampleSubjects
+import com.example.student_planner.data.Subject
+import com.example.student_planner.data.sampleSubjects
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

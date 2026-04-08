@@ -87,7 +87,7 @@ fun ProfileScreen(
                     ProfileInfoRow(
                         icon = Icons.Default.Email,
                         label = "Email",
-                        value = "groshev.na@student.volsu.ru"
+                        value = "nikitagroshev11@gmail.com"
                     )
                     HorizontalDivider()
                     ProfileInfoRow(
@@ -114,11 +114,11 @@ fun ProfileScreen(
                     ) {
                         StatisticItem(
                             label = "Средний балл",
-                            value = "4.5"
+                            value = "5"
                         )
                         StatisticItem(
                             label = "Бонусов",
-                            value = "150"
+                            value = "11000000000"
                         )
                         StatisticItem(
                             label = "Дисциплин",
