@@ -1,4 +1,4 @@
-package com.example.studentplanner.data
+package com.example.student_planner.data
 
 data class Subject(
     val id: String,              // Уникальный идентификатор

@@ -1,4 +1,4 @@
-package com.example.studentplanner.ui_model
+package com.example.student_planner.ui_model
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
