@@ -11,6 +11,7 @@ import com.example.student_planner.ui_model.DetailsScreen
 import com.example.student_planner.ui_model.HomeScreen
 import com.example.student_planner.ui_model.ProfileScreen
 import com.example.student_planner.ui_model.SettingsScreen
+import com.example.student_planner.ui_model.ScheduleScreen
 
 @Composable
 fun StudentPlannerNavHost(
@@ -33,6 +34,9 @@ fun StudentPlannerNavHost(
                 },
                 onSettingsClick = {
                     navController.navigate(Screen.Settings.route)
+                },
+                onScheduleClick = {
+                    navController.navigate(Screen.Schedule.route)
                 }
             )
         }
@@ -67,6 +71,14 @@ fun StudentPlannerNavHost(
         // Экран настроек
         composable(route = Screen.Settings.route) {
             SettingsScreen(
+                onNavigateBack = {
+                    navController.popBackStack()
+                }
+            )
+        }
+        // Экран расписания
+        composable(route = Screen.Schedule.route) {
+            ScheduleScreen(
                 onNavigateBack = {
                     navController.popBackStack()
                 }
