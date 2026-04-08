@@ -67,22 +67,8 @@ HomeScreen (Главный экран)
 - Выбор тёмной темы (Switch)
 - Дополнительная информация о приложении
 - Разделы "Справка" и "Выход"
-
-## Скриншоты
-
-*(Здесь разместите скриншоты ваших экранов)*
-
-### Главный экран
-![Home Screen](img/home_screen.png)
-
-### Экран деталей дисциплины
-![Details Screen](img/details_screen.png)
-
-### Профиль студента
-![Profile Screen](img/profile_screen.png)
-
-### Настройки
-![Settings Screen](img/settings_screen.png)
+  
+---
 
 ## Структура проекта
 
